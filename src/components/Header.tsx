@@ -72,6 +72,12 @@ const Header = () => {
               Skills
             </button>
             <button
+              onClick={() => scrollToSection("projects")}
+              className="text-sm font-medium hover:bg-muted/60 rounded-full px-4 py-2 transition-all"
+            >
+              Projetos
+            </button>
+            <button
               onClick={() => scrollToSection("education")}
               className="text-sm font-medium hover:bg-muted/60 rounded-full px-4 py-2 transition-all"
             >
@@ -131,6 +137,12 @@ const Header = () => {
                 className="text-sm font-medium hover:bg-muted/60 rounded-lg px-4 py-3 text-left transition-all"
               >
                 Skills
+              </button>
+              <button
+                onClick={() => scrollToSection("projects")}
+                className="text-sm font-medium hover:bg-muted/60 rounded-lg px-4 py-3 text-left transition-all"
+              >
+                Projetos
               </button>
               <button
                 onClick={() => scrollToSection("education")}
