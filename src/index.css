@@ -2,103 +2,93 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Modern BI Analyst Portfolio Design System */
 
 @layer base {
   :root {
-    /* Warm, sophisticated palette inspired by the design */
-    --background: 36 44% 96%;
-    --foreground: 0 0% 18%;
+    /* Professional, tech-forward palette */
+    --background: 220 20% 97%;
+    --foreground: 220 25% 12%;
 
-    --card: 33 40% 94%;
-    --card-foreground: 0 0% 18%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 12%;
 
-    --popover: 36 44% 96%;
-    --popover-foreground: 0 0% 18%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 12%;
 
-    --primary: 0 0% 18%;
-    --primary-foreground: 36 44% 96%;
+    --primary: 220 70% 50%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 25 30% 70%;
-    --secondary-foreground: 0 0% 18%;
+    --secondary: 220 15% 92%;
+    --secondary-foreground: 220 25% 12%;
 
-    --muted: 33 30% 88%;
-    --muted-foreground: 0 0% 40%;
+    --muted: 220 15% 94%;
+    --muted-foreground: 220 10% 45%;
 
-    --accent: 140 20% 50%;
-    --accent-foreground: 36 44% 96%;
+    --accent: 160 60% 45%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 36 44% 96%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 33 25% 85%;
-    --input: 33 25% 85%;
-    --ring: 0 0% 18%;
+    --border: 220 15% 90%;
+    --input: 220 15% 90%;
+    --ring: 220 70% 50%;
 
-    --radius: 1rem;
+    --radius: 0.75rem;
 
-    /* Custom design tokens */
-    --tag-financing: 210 50% 75%;
-    --tag-lifestyle: 140 20% 70%;
-    --tag-community: 25 35% 60%;
-    --tag-wellness: 280 30% 75%;
-    --tag-travel: 195 50% 70%;
-    --tag-creativity: 330 40% 75%;
-    --tag-growth: 50 45% 70%;
-
-    /* Polish design tokens */
-    --cream: 40 40% 90%;
-    --cream-foreground: 0 0% 18%;
-    --surface-elevated: 36 44% 98%;
-    --shadow-soft: 0 0% 0%;
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Portfolio-specific tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(220 70% 50%), hsl(240 60% 55%));
+    --gradient-accent: linear-gradient(135deg, hsl(160 60% 45%), hsl(180 50% 50%));
+    --gradient-subtle: linear-gradient(180deg, hsl(220 20% 97%), hsl(220 15% 94%));
+    
+    /* Skill category colors */
+    --skill-bi: 220 70% 50%;
+    --skill-data: 160 60% 45%;
+    --skill-ml: 280 60% 50%;
+    --skill-web: 30 80% 55%;
+    
+    --surface-elevated: 0 0% 100%;
+    --shadow-soft: 220 30% 70%;
   }
 
   .dark {
-    --background: 0 0% 10%;
-    --foreground: 36 44% 96%;
+    --background: 220 25% 8%;
+    --foreground: 220 15% 95%;
 
-    --card: 0 0% 14%;
-    --card-foreground: 36 44% 96%;
+    --card: 220 25% 12%;
+    --card-foreground: 220 15% 95%;
 
-    --popover: 0 0% 10%;
-    --popover-foreground: 36 44% 96%;
+    --popover: 220 25% 12%;
+    --popover-foreground: 220 15% 95%;
 
-    --primary: 36 44% 96%;
-    --primary-foreground: 0 0% 18%;
+    --primary: 220 70% 60%;
+    --primary-foreground: 220 25% 8%;
 
-    --secondary: 25 15% 30%;
-    --secondary-foreground: 36 44% 96%;
+    --secondary: 220 20% 20%;
+    --secondary-foreground: 220 15% 95%;
 
-    --muted: 0 0% 20%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 220 20% 18%;
+    --muted-foreground: 220 10% 60%;
 
-    --accent: 140 20% 45%;
-    --accent-foreground: 36 44% 96%;
+    --accent: 160 55% 50%;
+    --accent-foreground: 220 25% 8%;
 
     --destructive: 0 62% 50%;
-    --destructive-foreground: 36 44% 96%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 36 44% 96%;
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 220 70% 60%;
 
-    /* Dark mode tag colors */
-    --tag-financing: 210 40% 45%;
-    --tag-lifestyle: 140 20% 40%;
-    --tag-community: 25 30% 40%;
-    --tag-wellness: 280 25% 45%;
-    --tag-travel: 195 40% 45%;
-    --tag-creativity: 330 35% 45%;
-    --tag-growth: 50 40% 45%;
+    /* Dark mode skill colors */
+    --skill-bi: 220 60% 60%;
+    --skill-data: 160 50% 50%;
+    --skill-ml: 280 50% 60%;
+    --skill-web: 30 70% 60%;
 
-    /* Dark mode polish tokens */
-    --cream: 40 20% 25%;
-    --cream-foreground: 36 44% 96%;
-    --surface-elevated: 0 0% 16%;
-    --shadow-soft: 0 0% 0%;
+    --surface-elevated: 220 25% 14%;
+    --shadow-soft: 220 30% 5%;
   }
 }
 
@@ -116,43 +106,59 @@ All colors MUST be HSL.
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-serif tracking-tight;
+    @apply font-sans font-bold tracking-tight;
   }
 }
 
 @layer utilities {
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
   .card-hover {
-    @apply transition-all duration-500 hover:scale-[1.02];
-    box-shadow: 0 4px 20px -4px hsl(var(--shadow-soft) / 0.1);
+    @apply transition-all duration-300 hover:scale-[1.02];
+    box-shadow: 0 4px 20px -4px hsl(var(--shadow-soft) / 0.15);
   }
 
   .card-hover:hover {
-    box-shadow: 0 20px 40px -10px hsl(var(--shadow-soft) / 0.15);
+    box-shadow: 0 20px 40px -10px hsl(var(--shadow-soft) / 0.25);
   }
 
   .pill-nav {
-    @apply rounded-full bg-[hsl(var(--surface-elevated))] backdrop-blur-lg border border-border/50;
+    @apply rounded-full bg-[hsl(var(--surface-elevated)/0.95)] backdrop-blur-lg border border-border/50;
+    box-shadow: 0 4px 20px -4px hsl(var(--shadow-soft) / 0.1);
   }
 
-  .floating-button {
-    @apply w-12 h-12 rounded-full bg-[hsl(var(--cream)/0.9)] backdrop-blur-sm flex items-center justify-center text-[hsl(var(--cream-foreground))] hover:bg-[hsl(var(--cream))] hover:scale-110 transition-all duration-300;
-    box-shadow: 0 4px 12px -2px hsl(var(--shadow-soft) / 0.15);
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-md border border-border/50 rounded-2xl;
+    box-shadow: 0 8px 32px -8px hsl(var(--shadow-soft) / 0.15);
+  }
+
+  .skill-badge {
+    @apply px-3 py-1.5 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105;
   }
 
   /* Animation keyframes */
   @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
 
   @keyframes slideUp {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(30px);
     }
     to {
       opacity: 1;
@@ -182,12 +188,17 @@ All colors MUST be HSL.
     }
   }
 
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
   .animate-fade-in {
     animation: fadeIn 0.5s ease-out;
   }
 
   .animate-slide-up {
-    animation: slideUp 0.6s ease-out;
+    animation: slideUp 0.6s ease-out forwards;
   }
 
   .animate-slide-down {
@@ -198,68 +209,32 @@ All colors MUST be HSL.
     animation: scaleIn 0.5s ease-out;
   }
 
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
   /* Stagger animations */
-  .stagger-1 {
-    animation-delay: 0.1s;
-    opacity: 0;
-    animation-fill-mode: forwards;
+  .stagger-1 { animation-delay: 0.1s; opacity: 0; }
+  .stagger-2 { animation-delay: 0.2s; opacity: 0; }
+  .stagger-3 { animation-delay: 0.3s; opacity: 0; }
+  .stagger-4 { animation-delay: 0.4s; opacity: 0; }
+  .stagger-5 { animation-delay: 0.5s; opacity: 0; }
+  .stagger-6 { animation-delay: 0.6s; opacity: 0; }
+
+  /* Skill category badges */
+  .skill-bi {
+    @apply bg-[hsl(var(--skill-bi)/0.15)] text-[hsl(var(--skill-bi))];
   }
 
-  .stagger-2 {
-    animation-delay: 0.2s;
-    opacity: 0;
-    animation-fill-mode: forwards;
+  .skill-data {
+    @apply bg-[hsl(var(--skill-data)/0.15)] text-[hsl(var(--skill-data))];
   }
 
-  .stagger-3 {
-    animation-delay: 0.3s;
-    opacity: 0;
-    animation-fill-mode: forwards;
+  .skill-ml {
+    @apply bg-[hsl(var(--skill-ml)/0.15)] text-[hsl(var(--skill-ml))];
   }
 
-  .stagger-4 {
-    animation-delay: 0.4s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-  }
-
-  .stagger-5 {
-    animation-delay: 0.5s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-  }
-
-  .stagger-6 {
-    animation-delay: 0.6s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-  }
-
-  .tag-financing {
-    @apply bg-[hsl(var(--tag-financing))] text-primary;
-  }
-
-  .tag-lifestyle {
-    @apply bg-[hsl(var(--tag-lifestyle))] text-primary;
-  }
-
-  .tag-community {
-    @apply bg-[hsl(var(--tag-community))] text-primary;
-  }
-
-  .tag-wellness {
-    @apply bg-[hsl(var(--tag-wellness))] text-primary;
-  }
-
-  .tag-travel {
-    @apply bg-[hsl(var(--tag-travel))] text-primary;
-  }
-
-  .tag-creativity {
-    @apply bg-[hsl(var(--tag-creativity))] text-primary;
-  }
-
-  .tag-growth {
-    @apply bg-[hsl(var(--tag-growth))] text-primary;
+  .skill-web {
+    @apply bg-[hsl(var(--skill-web)/0.15)] text-[hsl(var(--skill-web))];
   }
 }
