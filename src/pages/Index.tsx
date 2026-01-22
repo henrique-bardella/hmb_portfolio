@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/portfolio/HeroSection";
 import ExperienceSection from "@/components/portfolio/ExperienceSection";
 import SkillsSection from "@/components/portfolio/SkillsSection";
+import ProjectsSection from "@/components/portfolio/ProjectsSection";
 import EducationSection from "@/components/portfolio/EducationSection";
 import ContactSection from "@/components/portfolio/ContactSection";
 
@@ -16,6 +17,10 @@ const Index = () => {
       </main>
 
       <SkillsSection />
+
+      <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <ProjectsSection />
+      </main>
 
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <EducationSection />
