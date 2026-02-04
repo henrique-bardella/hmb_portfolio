@@ -18,7 +18,13 @@ const projects: Project[] = [
     tags: ["Power BI", "DAX", "SQL Server"],
     icon: <BarChart3 className="h-6 w-6" />,
     link: "https://app.powerbi.com/view?r=eyJrIjoiMzVmMWY1OTUtNGZjZS00MjUwLTkyNDAtYTkxM2RhY2NhZjg5IiwidCI6IjM5OTdiNWRlLWMxMDMtNDczOS04NmZjLTRhZmY1MDBhZTBhMCJ9",
-    images: ["/01_Dashboard RH - Pagina 1.png", "/01_Dashboard RH - Pagina 2.png"],
+    images: [
+      // "/01_Dashboard RH - Pagina 1.png",
+      //  "/01_Dashboard RH - Pagina 2.png"
+      `${import.meta.env.BASE_URL}01_Dashboard RH - Pagina 1.png`,
+      `${import.meta.env.BASE_URL}01_Dashboard RH - Pagina 2.png`,
+        
+      ],
   },
   {
     title: "Análise de Meta e Realizado, Forecast & Recomendação de Produtos",
@@ -26,7 +32,14 @@ const projects: Project[] = [
     tags: ["Power BI", "DAX", "Python","ML"],
     icon: <TrendingUp className="h-6 w-6" />,
     link: "https://app.powerbi.com/view?r=eyJrIjoiYzdmYjg3ZmEtZjU5NS00ZTcyLThiZjYtYmQyODU2M2Y4M2Q3IiwidCI6IjM5OTdiNWRlLWMxMDMtNDczOS04NmZjLTRhZmY1MDBhZTBhMCJ9",
-    images: ["/Meta_Realizado_pagina_1.png", "/Meta_Realizado_pagina_2.png", "/Meta_Realizado_pagina_3.png"],
+    images: [
+      // "/Meta_Realizado_pagina_1.png", 
+      // "/Meta_Realizado_pagina_2.png",
+      //  "/Meta_Realizado_pagina_3.png"
+      `${import.meta.env.BASE_URL}Meta_Realizado_pagina_1.png`,
+      `${import.meta.env.BASE_URL}Meta_Realizado_pagina_2.png`,
+      `${import.meta.env.BASE_URL}Meta_Realizado_pagina_3.png`,
+      ],
   }
   // ,
   // {

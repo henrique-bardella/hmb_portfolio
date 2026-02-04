@@ -15,7 +15,7 @@ const HeroSection = () => {
         {/* Avatar */}
         <div className="w-60 h-60 mx-auto rounded-full overflow-hidden animate-scale-in">
           <img
-            src="/img.jpg"
+            src={`${import.meta.env.BASE_URL}img.jpg`}
             alt="Foto de perfil"
             className="w-full h-full object-cover"
           />

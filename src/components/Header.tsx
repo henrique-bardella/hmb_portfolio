@@ -45,7 +45,7 @@ const Header = () => {
           <div className="flex items-center min-w-0">
             <a href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
-                <span className="text-primary-foreground font-bold text-lg">HB</span>
+                <span className="text-primary-foreground font-bold text-lg">HB  </span>
               </div>
               <span className="text-lg font-bold hidden sm:block">Portfolio</span>
             </a>
