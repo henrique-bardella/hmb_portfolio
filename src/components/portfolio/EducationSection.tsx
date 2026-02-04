@@ -71,14 +71,45 @@ const EducationSection = () => {
             </div>
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+
+              <div className="p-4 rounded-xl bg-muted/50">
+                <h4 className="font-semibold text-sm">Data Science para Análise Multivariada</h4>
+                <p className="text-xs text-muted-foreground mt-1">Data Science Academy</p>
+            </div>
+
+            <div className="p-4 rounded-xl bg-muted/50">
+                <h4 className="font-semibold text-sm">Inteligência Artificial Explicável (XAI)</h4>
+                <p className="text-xs text-muted-foreground mt-1">Data Science Academy</p>
+            </div>
+            
+            
+            <div className="p-4 rounded-xl bg-muted/50">
+                <h4 className="font-semibold text-sm">Big Data Real-Time Analytics com Python e Spark</h4>
+                <p className="text-xs text-muted-foreground mt-1">Data Science Academy</p>
+            </div>
+            
+            <div className="p-4 rounded-xl bg-muted/50">
+                <h4 className="font-semibold text-sm">Engenharia de Dados com Hadoop e Spark</h4>
+                <p className="text-xs text-muted-foreground mt-1">Data Science Academy</p>
+            </div>
+            
               <div className="p-4 rounded-xl bg-muted/50">
                 <h4 className="font-semibold text-sm">SAS Programming: Essentials</h4>
                 <p className="text-xs text-muted-foreground mt-1">SAS Institute</p>
               </div>
+
               <div className="p-4 rounded-xl bg-muted/50">
-                <h4 className="font-semibold text-sm">Power BI Avançado</h4>
-                <p className="text-xs text-muted-foreground mt-1">Microsoft</p>
+                <h4 className="font-semibold text-sm">SAS Programming 2: Data Manipulation Techniques</h4>
+                <p className="text-xs text-muted-foreground mt-1">SAS Institute</p>
               </div>
+
+              <div className="p-4 rounded-xl bg-muted/50">
+                <h4 className="font-semibold text-sm">SAS Programming 3: Advanced Techniques</h4>
+                <p className="text-xs text-muted-foreground mt-1">SAS Institute</p>
+              </div>
+
+
+             
               <div className="p-4 rounded-xl bg-muted/50">
                 <h4 className="font-semibold text-sm">Outras certificações</h4>
                 <p className="text-xs text-muted-foreground mt-1">Diversas plataformas</p>

@@ -237,4 +237,13 @@
   .skill-web {
     @apply bg-[hsl(var(--skill-web)/0.15)] text-[hsl(var(--skill-web))];
   }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
 }

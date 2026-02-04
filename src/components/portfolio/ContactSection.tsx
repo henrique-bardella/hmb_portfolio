@@ -6,10 +6,10 @@ const ContactSection = () => {
     <section id="contact" className="py-16 md:py-24 bg-muted/30">
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-12 animate-slide-up">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Vamos Conversar?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Contato</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Estou sempre aberto a novas oportunidades, projetos e colaborações. 
-            Entre em contato!
+            {/* Estou sempre aberto a novas oportunidades, projetos e colaborações. 
+            Entre em contato! */}
           </p>
         </div>
 
@@ -35,7 +35,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-muted-foreground">seuemail@exemplo.com</p>
+                  <p className="text-muted-foreground">henrique.bardella@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -50,7 +50,7 @@ const ContactSection = () => {
                   className="justify-start h-14 rounded-xl hover:bg-muted transition-all"
                   asChild
                 >
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/henrique-bardella/" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="mr-3 h-5 w-5 text-[#0077B5]" />
                     <span>LinkedIn</span>
                   </a>
@@ -61,7 +61,7 @@ const ContactSection = () => {
                   className="justify-start h-14 rounded-xl hover:bg-muted transition-all"
                   asChild
                 >
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/henrique-bardella" target="_blank" rel="noopener noreferrer">
                     <Github className="mr-3 h-5 w-5" />
                     <span>GitHub</span>
                   </a>

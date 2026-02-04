@@ -11,7 +11,8 @@ const skillCategories: SkillCategory[] = [
   {
     title: "BI & Analytics",
     icon: <BarChart3 className="h-6 w-6" />,
-    skills: ["Power BI", "KPIs", "Segmentação", "Performance Comercial", "Governança de Métricas", "Dashboards"],
+    skills: ["Power BI", "DAX", "Power Query","Modelagem Dimensional", 
+      "Power BI Service (Workspaces, Apps, Deployment Pipelines)", "Governança de Métricas", "Dashboards"],
     colorClass: "skill-bi",
   },
   {
@@ -23,13 +24,14 @@ const skillCategories: SkillCategory[] = [
   {
     title: "Machine Learning",
     icon: <Brain className="h-6 w-6" />,
-    skills: ["Predição", "Recomendação", "Clusterização", "Cross-sell Models", "Deep Learning"],
+    skills: ["Aprendizado supervisionado","Aprendizado não supervisionado","Regressão Linear","Regressão Logística", "Random Forest", "Clusterização", "SVM (Support Vector Machine)",
+       "k-NN (k-Nearest Neighbors;)", "K-Means","PCA (Principal Component Analysis)", "Séries temporais" ],
     colorClass: "skill-ml",
   },
   {
     title: "Desenvolvimento Web",
     icon: <Code2 className="h-6 w-6" />,
-    skills: ["HTML/CSS", "JavaScript", "PHP", "Bancos Relacionais", "APIs"],
+    skills: ["HTML/CSS", "JavaScript", "Bancos Relacionais", "APIs", "Git/Versionamento"],
     colorClass: "skill-web",
   },
 ];

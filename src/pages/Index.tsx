@@ -32,7 +32,7 @@ const Index = () => {
       <footer className="border-t border-border">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center text-sm text-muted-foreground">
-            <p>© 2025 Portfolio. Desenvolvido com React & Tailwind CSS.</p>
+            <p>© 2025 Portfolio Henrique Bardella.</p>
           </div>
         </div>
       </footer>

@@ -11,37 +11,42 @@ interface Experience {
 const experiences: Experience[] = [
   {
     company: "Bradesco",
-    role: "Analista de Business Intelligence II",
+    role: "Analista de Business Intelligence | Empresas e Negócios",
     period: "ago/2024 – atual",
     current: true,
     responsibilities: [
-      "Estudos e análises para direcionamento comercial (executivo → campo)",
-      "Modelos de dados, KPIs, governança e dashboards (Power BI)",
-      "Engenharia/tratamento de dados: SAS, SQL, Python, Databricks",
-      "Análises preditivas (cross-sell, recomendação, clusterização)",
-      "Desenvolvimento de aplicações web integradas a bancos relacionais",
+      "Realizo análises e estudos que subsidiam decisões e direcionam ações comerciais para múltiplos públicos: Direção Executiva, Estratégia, Centro de Comando e Agências (Gerentes de Conta).",
+      "Estruturação de modelos de dados, criação de métricas e indicadores (KPIs) e governança de regras de negócio.",
+      "Desenvolvo dashboards no Power BI com foco em segmentação, comportamento e performance, garantindo clareza e usabilidade para diferentes audiências.",
+      "Realizo extração, tratamento e consolidação com SAS/SQL/Python/Databricks, priorizando performance e escalabilidade em grandes volumes.",
+      "Gerencio workspaces e governança no Power BI Service (acessos, organização, publicação e ciclo de entrega).",
+      "Apoio iniciativas de analytics avançado (cross-sell, recomendação, clusterização e propensão), conectando modelagem a casos de uso do negócio.",
+      "Desenvolvimento de aplicações web, implementando interfaces (HTML/CSS/JavaScript) e APIs/rotinas de servidor em PHP, com integração a bancos de dados relacionais.",
     ],
   },
   {
     company: "SONDA",
-    role: "Desenvolvedor de Software",
+    role: "Desenvolvedor de Software | Digital Business",
     period: "dez/2021 – ago/2024",
     responsibilities: [
-      "Produtos financeiros para Caixa (ALM) com SAS Studio/IRM, Git e Azure DevOps",
-      "Soluções de analytics (Power BI) e Power Platform",
-      "Automações com Power Automate e RPA",
-      "Iniciativas em cloud e on-premises",
+      "Soluções de analytics e Inovação Digital.",
+      "Automações com Power Automate e RPA.",
+      "Atuei em projetos com cloud e ambientes híbridos, apoiando implantação e sustentação de soluções.",
+      "Desenvolvimento de produtos financeiros, projeto para Caixa Econômica Federal de ALM (Asset and Liability Management) utilizando plataforma SAS (Studio e IRM - Infrastructure for Risk Management) e ferramentas de versionamento e DevOps (git e Azure DevOps).",
+      "Mantive contato direto com clientes/parceiros internacionais na América Latina, alinhando requisitos, evolução e entregas."
     ],
   },
   {
     company: "Bureau Veritas",
     role: "Analista de Desempenho",
-    period: "2019 – 2021",
+    period: "mar/2019 – dez/2021",
     responsibilities: [
-      "Dashboards gerenciais/operacionais (Power BI/Excel/SQL Server)",
-      "HR Analytics e people analytics",
-      "Coleta, limpeza, tratamento e análise ponta a ponta",
-      "Visualização de dados para diferentes audiências",
+      "Criei dashboards gerenciais e operacionais (Power BI/Excel/SQL Server) para acompanhamento de performance e rotinas.",
+      "Produzi relatórios de frota/administrativo e análises de HR/People Analytics para apoiar gestão.",
+      "Desenvolvimento ponta a ponta em dados: coleta, limpeza, tratamento e análise.",
+      "Desenvolvi visualizações para diferentes públicos (Diretoria/Gerência), reforçando storytelling e tomada de decisão.",
+      "Desenvolvimento web - HTML/CSS/JS.",
+      "Administrei sistema interno de inspeção em campo (~1200 usuários), apoiando operação e melhoria contínua."
     ],
   },
 ];
