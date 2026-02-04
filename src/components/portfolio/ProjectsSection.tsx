@@ -27,10 +27,10 @@ const projects: Project[] = [
       ],
   },
   {
-    title: "Análise de Meta e Realizado, Forecast & Recomendação de Produtos",
+    title: "Análise de Meta e Realizado",
     description: "Painel estratégico para acompanhamento de metas, performance de vendas e indicadores-chave para diretoria executiva. Visão consolidada com drill-down por regional.",
     tags: ["Power BI", "DAX", "Python","ML"],
-    icon: <TrendingUp className="h-6 w-6" />,
+    icon: <BarChart3 className="h-6 w-6" />,
     link: "https://app.powerbi.com/view?r=eyJrIjoiYzdmYjg3ZmEtZjU5NS00ZTcyLThiZjYtYmQyODU2M2Y4M2Q3IiwidCI6IjM5OTdiNWRlLWMxMDMtNDczOS04NmZjLTRhZmY1MDBhZTBhMCJ9",
     images: [
       // "/Meta_Realizado_pagina_1.png", 
@@ -39,6 +39,22 @@ const projects: Project[] = [
       `${import.meta.env.BASE_URL}Meta_Realizado_pagina_1.png`,
       `${import.meta.env.BASE_URL}Meta_Realizado_pagina_2.png`,
       `${import.meta.env.BASE_URL}Meta_Realizado_pagina_3.png`,
+      ],
+  },
+    {
+    title: "Dashboard Fórmula 1",
+    description: "Relatório com análise das corridas, equipes e pilotos no período de 1950 até 2022.",
+    tags: ["Power BI", "DAX"],
+    icon: <TrendingUp className="h-6 w-6" />,
+    link: "https://app.powerbi.com/view?r=eyJrIjoiNzFlM2EyMWItODhlMi00NDE3LWFhYzItNjZiZGFiNTYzYmEwIiwidCI6IjM5OTdiNWRlLWMxMDMtNDczOS04NmZjLTRhZmY1MDBhZTBhMCJ9",
+    images: [
+      // "/Meta_Realizado_pagina_1.png", 
+      // "/Meta_Realizado_pagina_2.png",
+      //  "/Meta_Realizado_pagina_3.png"
+      `${import.meta.env.BASE_URL}formula_1_pagina_1.png`,
+      `${import.meta.env.BASE_URL}formula_1_pagina_2.png`,
+      `${import.meta.env.BASE_URL}formula_1_pagina_3.png`,
+      `${import.meta.env.BASE_URL}formula_1_pagina_4.png`,
       ],
   }
   // ,
