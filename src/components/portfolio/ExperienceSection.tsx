@@ -38,10 +38,10 @@ const experiences: Experience[] = [
   },
   {
     company: "Bureau Veritas",
-    role: "Analista de Desempenho",
+    role: "Analista de Desempenho | Power&Utilities",
     period: "mar/2019 – dez/2021",
     responsibilities: [
-      "Criei dashboards gerenciais e operacionais (Power BI/Excel/SQL Server) para acompanhamento de performance e rotinas.",
+      "Criei dashboards gerenciais e operacionais (Power BI/Excel/SQL Server) para acompanhamento de performance das operações.",
       "Produzi relatórios de frota/administrativo e análises de HR/People Analytics para apoiar gestão.",
       "Desenvolvimento ponta a ponta em dados: coleta, limpeza, tratamento e análise.",
       "Desenvolvi visualizações para diferentes públicos (Diretoria/Gerência), reforçando storytelling e tomada de decisão.",
